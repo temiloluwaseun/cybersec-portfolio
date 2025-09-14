@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<magictree class="MtBranchObject"><testdata class="MtBranchObject"><host>44.228.249.3<hostname>vulnweb.com</hostname></host><fqdn>vulnweb.com.</fqdn><host>199.167.66.107<hostname>ns1.eurodns.com</hostname></host><fqdn>ns1.eurodns.com.</fqdn><host>104.37.178.108<hostname>ns4.eurodns.com</hostname></host><fqdn>ns4.eurodns.com.</fqdn><host>199.167.66.108<hostname>ns3.eurodns.com</hostname></host><fqdn>ns3.eurodns.com.</fqdn><host>104.37.178.107<hostname>ns2.eurodns.com</hostname></host><fqdn>ns2.eurodns.com.</fqdn></testdata></magictree>

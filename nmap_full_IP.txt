@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sat Sep 13 21:39:26 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sV -sC -p- -oN nmap_full_IP.txt IP_HERE
+Failed to resolve "IP_HERE".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Sat Sep 13 21:39:26 2025 -- 0 IP addresses (0 hosts up) scanned in 0.55 seconds

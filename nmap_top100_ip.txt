@@ -1,0 +1,11 @@
+# Nmap 7.95 scan initiated Sat Sep 13 22:28:35 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sV -sC --top-ports 100 -oN nmap_top100_ip.txt 44.228.249.3
+Nmap scan report for 44.228.249.3
+Host is up (0.46s latency).
+Not shown: 98 filtered tcp ports (no-response)
+PORT   STATE SERVICE    VERSION
+25/tcp open  smtp-proxy ISP SMTP block
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp open  http       nginx 1.19.0
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep 13 22:29:37 2025 -- 1 IP address (1 host up) scanned in 61.86 seconds

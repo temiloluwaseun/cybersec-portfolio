@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sat Sep 13 21:03:57 2025 as: /usr/lib/nmap/nmap --privileged -sV -sC --top-ports 100 -oN nmap_top100.txt testphp.vulnweb.com
+Failed to resolve "testphp.vulnweb.com".
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Sat Sep 13 21:03:57 2025 -- 0 IP addresses (0 hosts up) scanned in 0.64 seconds
