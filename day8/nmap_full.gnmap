@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Sun Sep 21 22:30:48 2025 as: /usr/lib/nmap/nmap --privileged -Pn -p- -A -sV -T4 -oA day8/nmap_full 44.228.249.3
+Host: 44.228.249.3 ()	Status: Up
+Host: 44.228.249.3 ()	Ports: 80/open/tcp//http//nginx 1.19.0/	Ignored State: filtered (65534)	Seq Index: 253	IP ID Seq: All zeros
+# Nmap done at Sun Sep 21 22:38:03 2025 -- 1 IP address (1 host up) scanned in 435.49 seconds

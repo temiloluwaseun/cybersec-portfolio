@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Sun Sep 21 22:30:48 2025 as: /usr/lib/nmap/nmap -&#45;privileged -Pn -p- -A -sV -T4 -oA day8/nmap_full 44.228.249.3 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -Pn -p- -A -sV -T4 -oA day8/nmap_full 44.228.249.3" start="1758490248" startstr="Sun Sep 21 22:30:48 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1758490248" endtime="1758490683"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="44.228.249.3" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-response" count="65534" proto="tcp" ports="1-79,81-65535"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="52"/><service name="http" product="nginx" version="1.19.0" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.19.0</cpe></service></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="80"/>
+<osmatch name="Linux 4.15" accuracy="97" line="70405">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="97"><cpe>cpe:/o:linux:linux_kernel:4.15</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.13" accuracy="91" line="59907">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.10 - 4.11" accuracy="91" line="66652">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.2 - 4.14" accuracy="91" line="68432">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 3.4 - 3.10" accuracy="91" line="68694">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 4.15 - 5.19" accuracy="91" line="70534">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="4.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:4</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.0 - 5.14" accuracy="91" line="71713">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:5</cpe></osclass>
+</osmatch>
+<osmatch name="MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)" accuracy="91" line="91792">
+<osclass type="router" vendor="MikroTik" osfamily="RouterOS" osgen="7.X" accuracy="91"><cpe>cpe:/o:mikrotik:routeros:7</cpe></osclass>
+<osclass type="router" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="91"><cpe>cpe:/o:linux:linux_kernel:5.6.3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 2.6.32 - 3.10" accuracy="90" line="59874">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="2.6.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:2.6</cpe></osclass>
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="3.X" accuracy="90"><cpe>cpe:/o:linux:linux_kernel:3</cpe></osclass>
+</osmatch>
+<osmatch name="Linux 5.4" accuracy="89" line="72270">
+<osclass type="general purpose" vendor="Linux" osfamily="Linux" osgen="5.X" accuracy="89"><cpe>cpe:/o:linux:linux_kernel:5.4</cpe></osclass>
+</osmatch>
+</os>
+<uptime seconds="4289954" lastboot="Sun Aug  3 06:58:49 2025"/>
+<distance value="15"/>
+<tcpsequence index="253" difficulty="Good luck!" values="41696D9C,6691FA02,A218542C,D7347C1C,E2CC3CA7,1C1C28A8"/>
+<ipidsequence class="All zeros" values="0,0,0,0,0,0"/>
+<tcptssequence class="1000HZ" values="FFB339B4,FFB33A1D,FFB33A68,FFB33ACD,FFB33B2B,FFB33B92"/>
+<trace port="80" proto="tcp">
+<hop ttl="1" ipaddr="192.168.1.1" rtt="8.79"/>
+<hop ttl="2" ipaddr="10.6.255.254" rtt="52.43"/>
+<hop ttl="3" ipaddr="172.24.240.50" rtt="52.44"/>
+<hop ttl="5" ipaddr="172.24.240.139" rtt="52.48"/>
+<hop ttl="6" ipaddr="192.168.20.2" rtt="47.76"/>
+<hop ttl="7" ipaddr="195.219.213.161" rtt="160.63"/>
+<hop ttl="9" ipaddr="195.219.213.129" rtt="297.23"/>
+<hop ttl="10" ipaddr="64.86.143.82" rtt="281.93"/>
+<hop ttl="11" ipaddr="66.198.29.36" rtt="280.84"/>
+<hop ttl="12" ipaddr="66.110.15.37" rtt="263.98"/>
+<hop ttl="13" ipaddr="207.45.206.0" rtt="274.48"/>
+<hop ttl="15" ipaddr="44.228.249.3" rtt="272.25"/>
+</trace>
+<times srtt="304925" rttvar="25177" to="405633"/>
+</host>
+<runstats><finished time="1758490683" timestr="Sun Sep 21 22:38:03 2025" summary="Nmap done at Sun Sep 21 22:38:03 2025; 1 IP address (1 host up) scanned in 435.49 seconds" elapsed="435.49" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

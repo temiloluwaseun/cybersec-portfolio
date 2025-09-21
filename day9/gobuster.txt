@@ -1,12 +1,24 @@
 /404.php             [32m (Status: 200)[0m [Size: 5268]
+/CVS                 [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/CVS/][0m
 /admin               [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/admin/][0m
 /artists.php         [32m (Status: 200)[0m [Size: 5328]
 /cart.php            [32m (Status: 200)[0m [Size: 4903]
 /categories.php      [32m (Status: 200)[0m [Size: 6115]
 /cgi-bin             [33m (Status: 403)[0m [Size: 276]
 /cgi-bin/            [33m (Status: 403)[0m [Size: 276]
-/crossdomain.xml     [32m (Status: 200)[0m [Size: 224]
-/CVS                 [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/CVS/][0m
-/CVS/Entries         [32m (Status: 200)[0m [Size: 1]
-/CVS/Repository      [32m (Status: 200)[0m [Size: 8]
-/CVS/Root            [32m (Status: 200)[0m [Size: 1]
+/disclaimer.php      [32m (Status: 200)[0m [Size: 5524]
+/favicon.ico         [32m (Status: 200)[0m [Size: 894]
+/guestbook.php       [32m (Status: 200)[0m [Size: 5390]
+/images              [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/images/][0m
+/index.bak           [32m (Status: 200)[0m [Size: 3265]
+/index.php           [32m (Status: 200)[0m [Size: 4958]
+/login.php           [32m (Status: 200)[0m [Size: 5523]
+/logout.php          [32m (Status: 200)[0m [Size: 4830]
+/pictures            [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/pictures/][0m
+/product.php         [32m (Status: 200)[0m [Size: 5056]
+/redir.php           [36m (Status: 302)[0m [Size: 0]
+/search.php          [32m (Status: 200)[0m [Size: 4732]
+/secured             [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/secured/][0m
+/signup.php          [32m (Status: 200)[0m [Size: 6033]
+/userinfo.php        [36m (Status: 302)[0m [Size: 14][34m [--> login.php][0m
+/vendor              [36m (Status: 301)[0m [Size: 169][34m [--> http://testphp.vulnweb.com/vendor/][0m

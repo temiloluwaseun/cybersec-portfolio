@@ -1,0 +1,34 @@
+# Nmap 7.95 scan initiated Sun Sep 21 22:30:48 2025 as: /usr/lib/nmap/nmap --privileged -Pn -p- -A -sV -T4 -oA day8/nmap_full 44.228.249.3
+Nmap scan report for 44.228.249.3
+Host is up (0.30s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE VERSION
+80/tcp open  http    nginx 1.19.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|router
+Running (JUST GUESSING): Linux 4.X|2.6.X|3.X|5.X (97%), MikroTik RouterOS 7.X (91%)
+OS CPE: cpe:/o:linux:linux_kernel:4.15 cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
+Aggressive OS guesses: Linux 4.15 (97%), Linux 2.6.32 - 3.13 (91%), Linux 3.10 - 4.11 (91%), Linux 3.2 - 4.14 (91%), Linux 3.4 - 3.10 (91%), Linux 4.15 - 5.19 (91%), Linux 5.0 - 5.14 (91%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (91%), Linux 2.6.32 - 3.10 (90%), Linux 5.4 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 15 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT       ADDRESS
+1   8.79 ms   192.168.1.1
+2   52.43 ms  10.6.255.254
+3   52.44 ms  172.24.240.50
+4   ...
+5   52.48 ms  172.24.240.139
+6   47.76 ms  192.168.20.2
+7   160.63 ms 195.219.213.161
+8   ...
+9   297.23 ms 195.219.213.129
+10  281.93 ms 64.86.143.82
+11  280.84 ms 66.198.29.36
+12  263.98 ms 66.110.15.37
+13  274.48 ms 207.45.206.0
+14  ...
+15  272.25 ms 44.228.249.3
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep 21 22:38:03 2025 -- 1 IP address (1 host up) scanned in 435.49 seconds
